@@ -1,0 +1,16 @@
+{
+    "name": "mcshaneburns/ChemMVC-template",
+    "type": "template",
+    "description": "A project template to make creating new ChemMVC projects easier.",
+    "keywords": ["template", "ChemMVC"],
+    "homepage": "https://github.com/shaneburns/ChemMVC-template",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "McShane Burns",
+            "email": "mcshaneburns@gmail.com",
+            "homepage": "https://shaneburns.com",
+            "role": "Developer"
+        }
+    ],  
+}
