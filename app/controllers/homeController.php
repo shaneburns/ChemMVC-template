@@ -1,5 +1,5 @@
 <?php 
-namespace LLAR\controllers;
+namespace app\controllers;
 use ChemMVC\controller as Controller;
 
 class homeController extends Controller
