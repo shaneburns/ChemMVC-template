@@ -1,0 +1,19 @@
+{
+    "name": "mcshane/chem-mvc",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shane Burns",
+            "email": "mcshaneburns@gmail.com"
+        }
+    ],
+    "require": {
+        "dotsunited/bundlefu" : "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ChemMVC\\": "src"
+        }
+    }
+}
