@@ -16,7 +16,7 @@ class Main
     {
         $customVars = array(
             'ROOT' => '../app',
-            'PROJECT_NAMESPACE' => 'LLAR', // This should utilize a 'psr' autoloaded namespace *Required for chemistry project to work correctly
+            'PROJECT_NAMESPACE' => 'app', // This should utilize a 'psr' autoloaded namespace *Required for chemistry project to work correctly
             'ENV_DETAILS_PATH' => APP_ROOT.DIRECTORY_SEPARATOR.'.env',
             'CONTROLLER_NAMESPACE' => 'controllers'
             // '_SQ_DOMAIN' => "connect.squareup.com",
@@ -32,14 +32,13 @@ class Main
         $this->config->bundleConfig->createBundle('mainCss');
 
         $this->config->bundleConfig->bundles['jQuery']->start(); ?>
-            <script src="../app/scripts/three.min.js"> </script>
             <script src="../app/scripts/ko.min.js"> </script>
             <script src="../app/scripts/jquery.min.js"> </script>
         <?php $this->config->bundleConfig->bundles['jQuery']->end();
 
                 //<link rel="stylesheet" href="../app/styles/squarePaymentStyles.css">
         $this->config->bundleConfig->bundles['mainCss']->start(); ?>
-            <link rel="stylesheet" media="screen" href="../app/styles/main.min.css">
+            <link rel="stylesheet" media="screen" href="../app/styles/main.css">
         <?php $this->config->bundleConfig->bundles['mainCss']->end();
 
         // Instantiate Chemistry MVC - pass in config
