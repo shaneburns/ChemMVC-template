@@ -1,18 +1,4 @@
 {
-    "name": "mcshaneburns/ChemMVC-template",
-    "type": "template",
-    "description": "A project template to make creating new ChemMVC projects easier.",
-    "keywords": ["template"],
-    "homepage": "https://url-of.project.repository",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "McShane Burns",
-            "email": "mcshaneburns@gmail.com",
-            "homepage": "https://shaneburns.com",
-            "role": "Developer"
-        }
-    ],
     "require": {
         "mcshane/chem-mvc" : "*"
     },
