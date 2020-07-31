@@ -18,12 +18,8 @@ class Main
             'ROOT' => '../app',
             'PROJECT_NAMESPACE' => 'app', // This should utilize a 'psr' autoloaded namespace *Required for chemistry project to work correctly
             'ENV_DETAILS_PATH' => APP_ROOT.DIRECTORY_SEPARATOR.'.env',
-            'CONTROLLER_NAMESPACE' => 'controllers'
-            // '_SQ_DOMAIN' => "connect.squareup.com",
-            // '_SQ_SANDBOX_TOKEN' => "sandbox-sq0atb-O7FK2-uYE4ds7U6_HNs_Kw",
-            // '_SQ_SANDBOX_APP_ID' => "sandbox-sq0idp-Pm_vauQduNSGkLz3lmSQMg",
-            // '_SQ_APP_ID' => "REPLACE_ME",
-            // '_SQ_APP_SECRET' => "REPLACE_ME"
+            'CONTROLLER_NAMESPACE' => 'controllers',
+            // 'CORE_NAMESPACE' => 'core'
         );
         // Instantiate a startup configuration object
         $this->config = new startup($customVars);
