@@ -1,4 +1,4 @@
 # ChemMVC - Composer Template
 
-composer create-project /chemmvc-template my-project
+composer create-project eadrom/chemmvc-template my-project
  
