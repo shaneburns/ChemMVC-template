@@ -1,2 +1,4 @@
-# Live Like A Rarity
+# ChemMVC - Composer Template
+
+composer create-project /chemmvc-template my-project
  
