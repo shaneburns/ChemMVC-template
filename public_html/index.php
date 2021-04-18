@@ -1,4 +1,4 @@
 <?php
-    define("APP_ROOT", '../app');
-    require_once APP_ROOT.'/config/init.php';
+    require_once APP_ROOT.'/main.php';
+    use app\main;
     $main = new Main();
